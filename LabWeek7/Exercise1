@@ -21,6 +21,7 @@
 # You can show the disk usage by using the df command. To show the uptime, use the uptime command. To show the users logged into the system, use the who command. Print a blank line after the output of each command using echo.
 
 # Menu 
+
 While TRUE
 do
     echo "1. Show Disk Usage."
@@ -56,7 +57,7 @@ done
 # select lng in Bash Java C++ Quit
 # do
 #    case $lng in
-#        "Bash")
+#        "Bash)"
 #            echo "$lng - that's what we're talking about";;
 #        "Java")
 #           echo "$lng - is your VM ready?";;
