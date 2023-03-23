@@ -1,15 +1,15 @@
-#!/bin/bash
+# !/bin/bash
 
 while true;
- do
-    clear
+do
+    
     echo "* Bash Commands *"
 
     echo "1. List files"
 
     echo "2. Show free disk space"
 
-    echo "3. Show system path"
+    echo "3. Show Current path"
 
     echo "4. Display command history"
 
@@ -30,7 +30,7 @@ while true;
 
         "3") 
             echo 
-            $PATH 
+            pwd
             ;;
 
         "4") 
