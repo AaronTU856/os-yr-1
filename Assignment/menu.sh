@@ -9,8 +9,6 @@ while true;
 
     echo "2. Show free disk space"
 
-
-
     echo "3. Show system path"
 
     echo "4. Display command history"
@@ -23,7 +21,7 @@ while true;
 
     case $choice in
         "1") 
-            ls 
+            ls -l
             ;;
 
         "2") 
